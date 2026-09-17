@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akshita Verma — Software Engineer</title>
+<meta name="description" content="Portfolio of Akshita Verma, aspiring software engineer building scalable, safety-focused and API-driven applications." />
+<meta property="og:title" content="Akshita Verma — Software Engineer" />
+<meta property="og:description" content="Aspiring Software Engineer | Building scalable, user-focused applications" />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+<div id="progress"></div>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <a href="#hero" class="nav-mark">akshita<span>.dev</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-a">About</a></li>
+      <li><a href="#skills" class="nav-a">Skills</a></li>
+      <li><a href="#projects" class="nav-a">Projects</a></li>
+      <li><a href="#certifications" class="nav-a">Certifications</a></li>
+      <li><a href="#extra" class="nav-a">Open Source</a></li>
+      <li><a href="#contact" class="nav-a">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark or light theme">◐</button>
+      <button class="nav-toggle-btn" id="navToggleBtn" aria-label="Toggle menu" aria-expanded="false">≡</button>
+    </div>
+  </div>
+</nav>
+
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-eyebrow-line"><span class="dot"></span> open_to_opportunities: true</div>
+      <h1>Akshita<br>Verma<span class="last">.</span></h1>
+      <div class="hero-typewriter"><span id="typeTarget"></span><span class="cursor-blink"></span></div>
+      <p class="hero-intro">Aspiring Software Engineer with a strong foundation in software development, demonstrated through open
+source contributions on GitHub. Enthusiastic about developing scalable, user-focused applications and 
+exploring cloud and API-driven technologies to deliver impactful solutions in collaborative engineering 
+environments.</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary magnetic">View projects</a>
+        <a id="resumeBtn" href="#" download="Akshita_Verma_Resume.pdf" class="btn btn-outline magnetic">Download resume ↓</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Akshita100905" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/akshitaverma10" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:akshita05verma@gmail.com">Email</a>
+        <a href="tel:+918000154279">+91 80001 54279</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="photo-ring" id="photoRing">
+        <div class="photo-core">
+          <img id="heroPhoto" src="" alt="Portrait of Akshita Verma" />
+        </div>
+        <div class="photo-tag"><span class="led"></span> CGPA 9.37</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>SCROLL</span><span class="line"></span></div>
+</section>
+
+<section id="stats">
+  <div class="container stats-grid reveal">
+    <div class="stat-item"><div class="stat-num" data-target="9.37" data-decimals="2">0</div><div class="stat-label">CGPA at JECRC University</div></div>
+    <div class="stat-item"><div class="stat-num"><span data-target="2">0</span><span class="suffix">+</span></div><div class="stat-label">Major projects shipped</div></div>
+    <div class="stat-item"><div class="stat-num"><span data-target="2">0</span><span class="suffix">+</span></div><div class="stat-label">ServiceNow certifications</div></div>
+    <div class="stat-item"><div class="stat-num"><span data-target="1">0</span><span class="suffix">+</span></div><div class="stat-label">Open-source program (GSSoC)</div></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <span class="section-bignum" aria-hidden="true">01</span>
+    <div class="section-head"><h2>About</h2><span class="section-index"></span></div>
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="about-lead">I build software with a strong foundation in real-world open-source practice.</p>
+        <p class="about-body">My contributions on GitHub — through code reviews, issues and pull requests — shaped how I think about writing software people actually rely on. I'm enthusiastic about scalable, user-focused applications, and increasingly drawn to cloud and API-driven technologies as the connective tissue between systems.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="t-year">2023 — Present</div>
+          <h3>B.Tech, Computer Science Engineering</h3>
+          <div class="t-meta">JECRC University · CGPA 9.37</div>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2023</div>
+          <h3>Senior Secondary</h3>
+          <div class="t-meta">Ryan International School, Jaipur · 86.8%</div>
+        </div>
+        <div class="timeline-item">
+          <div class="t-year">2021</div>
+          <h3>Secondary</h3>
+          <div class="t-meta">Ryan International School, Jaipur · 96.2%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <span class="section-bignum" aria-hidden="true">02</span>
+    <div class="section-head"><h2>Skills</h2><span class="section-index"></span></div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <div class="skill-card-head"><span class="skill-card-icon">&lt;/&gt;</span><h3>Languages</h3></div>
+        <div class="skill-tag-cloud">
+          <div class="skill-node">C<span class="lvl"></span></div>
+          <div class="skill-node">C++<span class="lvl"></span></div>
+          <div class="skill-node">Python<span class="lvl"></span></div>
+          <div class="skill-node">Java<span class="lvl"></span></div>
+          <div class="skill-node">JavaScript<span class="lvl"></span></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-head"><span class="skill-card-icon">&#9673;</span><h3>Web</h3></div>
+        <div class="skill-tag-cloud">
+          <div class="skill-node">HTML5<span class="lvl"></span></div>
+          <div class="skill-node">CSS3<span class="lvl"></span></div>
+          <div class="skill-node">Responsive UI<span class="lvl"></span></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-head"><span class="skill-card-icon">&#9670;</span><h3>Concepts</h3></div>
+        <div class="skill-tag-cloud">
+          <div class="skill-node">MySQL<span class="lvl"></span></div>
+          <div class="skill-node">DSA<span class="lvl"></span></div>
+          <div class="skill-node">OOP<span class="lvl"></span></div>
+          <div class="skill-node">DBMS<span class="lvl"></span></div>
+          <div class="skill-node">APIs<span class="lvl"></span></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-head"><span class="skill-card-icon">&#9881;</span><h3>Tools &amp; Platforms</h3></div>
+        <div class="skill-tag-cloud">
+          <div class="skill-node">Git<span class="lvl"></span></div>
+          <div class="skill-node">GitHub<span class="lvl"></span></div>
+          <div class="skill-node">VS Code<span class="lvl"></span></div>
+          <div class="skill-node">Google Cloud Platform<span class="lvl"></span></div>
+          <div class="skill-node">ServiceNow<span class="lvl"></span></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-head"><span class="skill-card-icon">&#9737;</span><h3>Working style</h3></div>
+        <div class="skill-tag-cloud">
+          <div class="skill-node">Time management<span class="lvl"></span></div>
+          <div class="skill-node">Teamwork<span class="lvl"></span></div>
+          <div class="skill-node">Communication<span class="lvl"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <span class="section-bignum" aria-hidden="true">03</span>
+    <div class="section-head"><h2>Projects</h2><span class="section-index"></span></div>
+    <div class="projects-list reveal">
+
+      <div class="project-flip" id="flip-prahari">
+        <div class="project-flip-inner">
+          <div class="project-face front">
+            <div class="glare"></div>
+            <div class="project-icon">🛡️</div>
+            <h3>Prahari</h3>
+            <div class="project-dates">Feb 2026 — June 2026</div>
+            <a href="https://prahari-3unw.onrender.com" class="project-link" target="_blank" rel="noopener">View project →</a>
+            <p class="project-desc">Prahari is a personal safety and emergency assistance application designed to help users quickly respond to emergency situations. The system provides an SOS alert mechanism, shares the user's live location, manages emergency contacts, identifies nearby police stations, and provides quick access to essential emergency services</p>
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>UI/UX</span></div>
+            <button class="flip-btn" data-target="flip-prahari">My role &amp; impact <span class="rot">↻</span></button>
+          </div>
+          <div class="project-face back">
+            <div class="project-back-label"><h2>My role &amp; impact</h2></div>
+            <h3>Prahari</h3>
+            <ul>
+              <li>Engineered a fully responsive UI in HTML5, CSS3 and JavaScript for the safety dashboard.</li>
+              <li>Designed the SOS flow to reduce emergency response access time.</li>
+              <li>Integrated real-time data visualization with backend services for seamless communication.</li>
+            </ul>
+            <button class="flip-btn" data-target="flip-prahari">← Back to overview</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-flip" id="flip-aiventory">
+        <div class="project-flip-inner">
+          <div class="project-face front">
+            <div class="glare"></div>
+            <div class="project-icon">📈</div>
+            <h3>AIventory</h3>
+            <div class="project-dates">Jul 2025 — Sept 2025</div>
+            <a href="https://aiventory.streamlit.app/" class="project-link" target="_blank" rel="noopener">View project →</a>
+            <p class="project-desc">AIventory is an AI-powered inventory management system designed to help users efficiently track, organize, and manage their products or household inventory. The system maintains inventory records, monitors stock levels, and provides intelligent insights to help users identify low-stock items, avoid unnecessary purchases, and improve inventory planning.</p>
+            <div class="project-tags"><span>Python</span><span>scikit-learn</span><span>Machine Learning</span><span>Data Preprocessing</span></div>
+            <button class="flip-btn" data-target="flip-aiventory">My role &amp; impact <span class="rot">↻</span></button>
+          </div>
+          <div class="project-face back">
+            <div class="project-back-label"><h2>My role &amp; impact</h2></div>
+            <h3>AIventory</h3>
+            <ul>
+              <li>Built and streamlined the data preprocessing stage: cleaning, encoding and normalization.</li>
+              <li>Engineered features to improve prediction accuracy and model performance.</li>
+              <li>Worked within scikit-learn to support the end-to-end forecasting pipeline.</li>
+            </ul>
+            <button class="flip-btn" data-target="flip-aiventory">← Back to overview</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="container">
+    <span class="section-bignum" aria-hidden="true">04</span>
+    <div class="section-head"><h2>Certifications</h2><span class="section-index"></span></div>
+    <div class="certs-grid reveal">
+      <div class="cert-flip">
+        <div class="cert-flip-inner">
+          <div class="cert-face front">
+            <div class="cert-icon">✓</div>
+            <div>
+              <h3>ServiceNow Certified System Administrator</h3>
+              <div class="cert-date">May 2026</div>
+            </div>
+            <span class="cert-hint">hover to flip →</span>
+          </div>
+          <div class="cert-face back">
+            <div class="cert-back-title"><a href="https://drive.google.com/file/d/1klaiKlUgw53bGKt7mQTk_DXe0f1c2qEX/view?usp=drive_link">CSA</a></div>
+            <p class="cert-back-text">Validated core platform administration skills across ServiceNow — configuration, user management and system setup.</p>
+            <span class="cert-date">Issued May 2026 · ServiceNow</span>
+          </div>
+        </div>
+      </div>
+      <div class="cert-flip">
+        <div class="cert-flip-inner">
+          <div class="cert-face front">
+            <div class="cert-icon">✓</div>
+            <div>
+              <h3>ServiceNow Certified Application Developer</h3>
+              <div class="cert-date">June 2026</div>
+            </div>
+            <span class="cert-hint">hover to flip →</span>
+          </div>
+          <div class="cert-face back">
+            <div class="cert-back-title"><a href="https://drive.google.com/file/d/1OS1P670bVPyzubPSmSSjaHZ1GUL3eA6p/view?usp=drive_link">CAD</a></div>
+            <p class="cert-back-text">Validated skills building applications on the ServiceNow platform, from data model to workflow logic.</p>
+            <span class="cert-date">Issued June 2026 · ServiceNow</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="extra">
+  <div class="container">
+    <span class="section-bignum" aria-hidden="true">05</span>
+    <div class="section-head"><h2>Open Source</h2><span class="section-index"></span></div>
+    <div class="extra-card reveal">
+      <div>
+        <h3>GirlScript Summer of Code</h3>
+        <div class="extra-meta">Contributor · GSSoC '24 · Oct — Nov 2024</div>
+        <div class="extra-meta"> <a href="https://drive.google.com/file/d/1fVnyOfBEemNsyJomYwfTyYUj0BXtz-b9/view?usp=drive_link"> Certificate </a></div>
+      </div>
+      <p>Contributed to open-source projects — improving codebases, fixing bugs and adding features. Collaborated with maintainers and fellow contributors through GitHub issues, pull requests and version control, working real-world open-source workflows.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <h2 class="contact-lead">Let's build something reliable together.</h2>
+      <p class="contact-sub">Open to software engineering roles and collaborations — reach out directly or send a message.</p>
+      <div class="contact-list">
+        <a href="mailto:akshita05verma@gmail.com">akshita05verma@gmail.com</a>
+        <a href="tel:+918000154279">+91 80001 54279</a>
+        <a href="https://github.com/Akshita100905" target="_blank" rel="noopener">github.com/Akshita100905</a>
+        <a href="https://linkedin.com/in/akshitaverma10" target="_blank" rel="noopener">linkedin.com/in/akshitaverma10</a>
+      </div>
+    </div>
+    <form class="reveal" id="contactForm">
+      <div class="form-field"><label for="cname">Name</label><input type="text" id="cname" name="name" required /></div>
+      <div class="form-field"><label for="cemail">Email</label><input type="email" id="cemail" name="email" required /></div>
+      <div class="form-field"><label for="cmessage">Message</label><textarea id="cmessage" name="message" required></textarea></div>
+      <button type="submit" class="btn btn-primary magnetic">Send message</button>
+      <div class="form-status" id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Akshita Verma. Built with HTML, CSS &amp; JS.</span>
+    <div class="footer-socials">
+      <a href="https://github.com/Akshita100905" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/akshitaverma10" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:akshita05verma@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
